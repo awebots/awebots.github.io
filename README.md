@@ -1,5 +1,5 @@
 # awebots
-[Hugo](https://github.com/HugoDF/) #Heckler, [Wilhelm](https://github.com/xoneco) #Hacker & [Diana](https://github.com/parisandmilo) #Hipster have come together to build cool websites/apps, bots & products #hustle
+[Hugo](https://github.com/HugoDF/) (#Heckler), [Wilhelm](https://github.com/xoneco) (#Hacker) & [Diana](https://github.com/parisandmilo) (#Hipster) have come together to build cool websites/apps, bots & ship products (#hustle)
 
 Together, we combine extensive full-stack technical experience in the following (predominantly web):
 - JavaScript (incl React, Node.js, Express.js, D3.js & obviously jQuery)
@@ -14,11 +14,11 @@ Together, we combine extensive full-stack technical experience in the following 
 - Data Science (Python - scikit-learn, JavaScript, SparkML)
 - Security
 - & associated build tools and package managers, and obviously THE terminal #TELNETisTHEfuture
-- we even have combined, notable experience in digital marketing across almost all platforms/networks (Facebook, Twitter, Instagram #doitforthegram, Pinterest, Medium, Bloglovin, etc etc etc)
+- we even have combined, notable experience in digital marketing for various industries across almost all platforms/networks (Facebook, Twitter, Instagram #doitforthegram, LinkedIn, Pinterest, Medium, Bloglovin, etc etc etc)
 
 > Any stack, any language, anywhere: code is code.
 > - Hugo
 
 We just love the web.
 
-![YodaB0SS](http://41.media.tumblr.com/tumblr_m7so4wPUq41rqt93po1_1280.jpg)
+![YodaB0SS](yoda.jpg)
