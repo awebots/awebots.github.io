@@ -17,8 +17,8 @@ Together, we combine extensive full-stack technical experience in the following 
 - we even have combined, notable experience in digital marketing for various industries across almost all platforms/networks (Facebook, Twitter, Instagram #doitforthegram, LinkedIn, Pinterest, Medium, Bloglovin, etc etc etc)
 
 > Any stack, any language, anywhere: code is code.
-> - Hugo
+- Hugo
 
-We just love the web.
+# We just love the web.
 
 ![YodaB0SS](yoda.jpg)
