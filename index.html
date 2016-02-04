@@ -4,12 +4,15 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" 
+      type="image/png" 
+      href="robot.png">
 	<title>&#129302; Awebots</title>
   <meta name="description" content="&#129302; Awebots, you think it, we build it">
   <style type="text/css">
     body{
       font-family: "Helvetica Neue", "Helvetica",sans-serif;
-      background-color: #fff;
+      background-color: #f2f2f2;
       font-weight: 200;
       color: #333;
     }
@@ -19,9 +22,14 @@
     h1{
       font-weight: 400;
       letter-spacing: 2px;
-      margin-top: 100px;
-      margin-bottom: 20px;
-      font-size: 45px;
+      margin: 25vh 0;
+      font-size: 8em;
+      height: 30vh;
+      color: #FFFFFF;
+      text-shadow: 0 0 5px #000000;
+    }
+    h1:hover {
+      text-shadow: 0 0 20px #0000f9;
     }
     h2{
       font-weight: 300;
@@ -29,21 +37,110 @@
       font-style: italic;
     }
     p{
-      margin-bottom: 100px;
+      margin-bottom: 4em;
     }
     a{
-      color: rgb(105, 130, 207);
+      color: #000066;
+      text-decoration: none;
     }
     a:hover{
-      color: rgb(75, 100, 177);;
+      color: #f0f0f0;
+      text-shadow: 0 0 15px #000066;
+    }
+    div {
+      float: left;
+    }
+    div#main {
+      width: 75%;
+    }
+    div#tweet {
+      height: 70vh;
+      padding: 2vh 0;
+    }
+    #twitter-widget-0{
+      width: 100% !important; 
+    }
+
+    /* ----------- iPhone 4 and 4S ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        
+        div#main {
+          width: 100%;
+        }
+
+        h1 {
+          font-size: 3em;
+          margin: 30vh 0;
+          height: 20vh;
+        }
+    }
+
+    /* ----------- iPhone 5 and 5S ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        div#main {
+          width: 100%;
+        }        
+        h1 {
+          font-size: 3em;
+          margin: 30vh 0;
+          height: 20vh;
+        }
+    }
+
+    /* ----------- iPhone 6 ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2) { 
+        div#main {
+          width: 100%;
+        }
+        h1 {
+          font-size: 3em;
+          margin: 30vh 0;
+          height: 20vh;
+        }
+    }
+
+    /* ----------- iPhone 6+ ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen 
+      and (min-device-width: 414px) 
+      and (max-device-width: 736px) 
+      and (-webkit-min-device-pixel-ratio: 3) { 
+        div#main {
+          width: 100%;
+        }
+        h1 {
+          font-size: 3em;
+          margin: 30vh 0;
+          height: 22vh;
+        }
     }
   </style>
 </head>
 <body>
-  <h1>&#129302; Awebots</h1>
-  <h2>Site under construction</h2>
-  <p><a href="mailto:team@awebots.com">Get in touch team@awebots.com</a></p>
-  <div style="text-align: center"><a style="display:inline-block;" height="400" class="twitter-timeline" href="https://twitter.com/awebots" data-widget-id="695301906072207363">Tweets by @awebots</a></div>
+  <div id="main">
+    <h1>a w e b o t s</h1>
+    <h2>Site under construction</h2>
+    <p>
+      <a href="mailto:team@awebots.com">Get in touch: team (at) awebots (dot) com</a>
+    </p>
+  </div>
+  <div id="tweet" style="text-align: center"><a style="display:inline-block;" class="twitter-timeline" href="https://twitter.com/awebots" data-widget-id="695301906072207363">Tweets by @awebots</a></div>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </body>
 </html>
