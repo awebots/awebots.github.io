@@ -1,4 +1,6 @@
 # awebots
+
+[![Join the chat at https://gitter.im/awebots/awebots.github.io](https://badges.gitter.im/awebots/awebots.github.io.svg)](https://gitter.im/awebots/awebots.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [Hugo](https://github.com/HugoDF/) (#Heckler), [Wilhelm](https://github.com/xoneco) (#Hacker) & [Diana](https://github.com/parisandmilo) (#Hipster) have come together to build cool websites/apps, bots & ship products (#hustle)
 
 Together, we combine extensive full-stack technical experience in the following (predominantly web):
